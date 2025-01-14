@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+
+    <meta content="xxxxxxx" name="author">
+    <meta content="xxxxxxxxxxx" name="keywords">
+    <meta content="xxxxxxxxxxxxxx" name="description">
+    <title>index</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+<header id="headerHome" class="container-fluid" >
+
+    <section class="row align-items-center justify-content-between">
+
+        <article class=" col-4 m-3 align-self-end">
+            <p id="home" class="fs-4 ms-5" > <a href="index.html" class="text-black"  style="text-decoration: none;">Home</a></p>
+        </article>
+
+
+
+        <article class=" col-5 ">
+            <img src="imagens/logo_p_lab.png" class="w-75 ">
+        </article>
+
+        <article class="col-2 m-3 ">
+            <p class="fs-5">Som
+                <img id="mute" src="imagens/icons/volume_up.png">
+                <input type="range" id="som" name="slider" min="0" max="9" step="1" value="9">
+            </p>
+        </article>
+
+    </section>
+    </section>
+</header>
+
+
+<main class="container ms-0 me-0" >
+
+    <section class="row justify-content-center" style="margin-top: 70px">
+        <article class="col-6">
+            <div class="m-auto" id="fundo"></div>
+        </article>
+        <article class="col-12">
+            <div id="aviao"></div>
+        </article>
+
+    </section>
+
+</main>
+
+
+
+<script src="js/index.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
+

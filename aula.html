@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+
+    <meta content="xxxxxxx" name="author">
+    <meta content="xxxxxxxxxxx" name="keywords">
+    <meta content="xxxxxxxxxxxxxx" name="description">
+    <title>Recicla</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body style="background-color: #E9F3F6">
+<header class="container-fluid" style="background-color: #d5ebee">
+
+    <section class="row align-items-center justify-content-between">
+
+        <article class="col-1 m-3 align-self-end">
+            <p id="home" class="fs-4 ms-5" > <a href="index.html" class="text-black"  style="text-decoration: none;">Home</a></p>
+        </article>
+
+
+        <article class="col-3 m-3 align-self-end">
+            <p class="fs-4 mb-2">Som
+                <img id="mute" src="imagens/icons/volume_up.png">
+                <input class="col-3 m-3 " type="range" id="som" name="slider" min="0" max="9" step="1" value="9">
+            </p>
+        </article>
+
+
+        <article class="col-4 ">
+            <img src="imagens/logo_p_lab-removebg.png" class="w-75">
+        </article>
+
+        <article class="col-1 m-3" style="background-color: #C2FFC8; border-radius: 15px">
+            <div>
+                <label id="certas" class="fs-3 ms-3"></label>
+                <img id="right" class="ms-3" src="imagens/right_cb.png">
+            </div>
+        </article>
+
+        <article class="col-1 m-3" style="background-color: #FFC3C3; border-radius: 15px">
+            <div>
+                <label id="erradas" class="fs-3 ms-3"></label>
+                <img id="wrong" class="ms-3" src="imagens/wrong_cb.png">
+            </div>
+        </article>
+
+        <article class="col-1"></article>
+
+    </section>
+</header>
+
+<aside>
+    <div>
+        <img id="mario" class="ms-5"  style="margin-top: 200px" src="imagens/mario/mario_frente_1.png">
+    </div>
+
+    <div>
+        <img id="checkpoint1" src="imagens/icons/checkpoint.png" class="ms-5" style="position: absolute">
+    </div>
+
+    <div>
+        <img id="checkpoint2" src="imagens/icons/checkpoint.png" class="ms-5" style="position: absolute">
+    </div>
+
+    <div>
+        <img id="checkpoint3" src="imagens/icons/checkpoint.png" class="ms-5" style="position: absolute">
+    </div>
+
+    <div>
+        <img id="checkpoint4" src="imagens/icons/meta.png" class="ms-5" style="position: absolute">
+    </div>
+
+</aside>
+
+<main class="container w-75">
+
+    <section class="row justify-content-center">
+        <article class="col-9 " style="margin-top: 200px">
+            <video id="video1" class="w-100"  style="border-radius: 50px;" autoplay type="video/mp4">
+                O seu navegador não suporta este vídeo.
+            </video>
+        </article>
+    </section>
+
+    <section class="row justify-content-center mt-3 ">
+        <article class="col-4 ms-3">
+            <img id="videoPlay" src="imagens/icons/pause.png" class="ms-3">
+        </article>
+        <article class=" col-4 ms-5">
+            <img id="videoSomMenos" src="imagens/icons/menos.png"  class="ms-5">
+            <img id="videoSomMais" src="imagens/icons/add.png">
+            <img id="videoMute" src="imagens/icons/volume_up.png">
+        </article>
+    </section>
+
+    <section class="row justify-content-center">
+        <article class="col-9" style="padding-top: 100px">
+            <h2 class="text-black p-5"> Será que já sabes tudo sobre reciclagem?</h2>
+        </article>
+
+        <article class="col-9 pb-4">
+            <h4 class="text-black"> Este quizz é para ti...</h4>
+        </article>
+    </section>
+
+    <section id="quiz1" class="row justify-content-center">
+        <article  class="col-9 pt-5 ">
+            <h3 id="q1Pergunta" class="text-black "> Qual é a ordem de importância (do mais importante para o menos) dos 3 R's? </h3>
+            <h3 id="q2Pergunta" class="text-black "> As embalagens constituídas por papel devem ser postas: </h3>
+            <h3 id="q3Pergunta" class="text-black "> O que devemos fazer pelo nosso planeta? </h3>
+        </article>
+
+        <article  class="col-9 text-center mt-5 pb-4" style="margin: auto">
+            <img id="q1Imagem" style="height: 100px; margin: auto" src="imagens/Rec-removebg-preview.png">
+            <img id="q2Imagem" style="height: 100px; margin: auto" src="imagens/ecopontos.png">
+            <img id="q3Imagem" style="height: 150px; margin: auto" src="imagens/planeta.png">
+        </article>
+
+        <article class="col-9 mt-4">
+            <button id="opcao1" class="w-100" style="border-radius: 25px"> Reciclar, Reduzir, Reutilizar</button>
+            <button id="opcao4" class="w-100" style="border-radius: 25px"> No ecoponto Azul</button>
+            <button id="opcao7" class="w-100" style="border-radius: 25px"> Respeitar</button>
+        </article>
+
+        <article class="col-9 pt-3">
+            <button id="opcao2" class="w-100" style="border-radius: 25px"> Reduzir, Reutilizar, Reciclar</button>
+            <button id="opcao5" class="w-100" style="border-radius: 25px"> No ecoponto Amarelo</button>
+            <button id="opcao8" class="w-100" style="border-radius: 25px"> Poluir</button>
+        </article>
+
+        <article class="col-9 pt-3 pb-3">
+            <button id="opcao3" class="w-100" style="border-radius: 25px"> Reutilizar, Reciclar, Reduzir</button>
+            <button id="opcao6" class="w-100" style="border-radius: 25px"> No ecoponto Verde</button>
+            <button id="opcao9" class="w-100" style="border-radius: 25px"> Sujar</button>
+        </article>
+
+        <article class="col-9 pt-3 text-center fs-3">
+            <div id="certo/errado"></div>
+        </article>
+
+        <article class="col-9 text-center fs-5 mb-3">
+        <div id="informação"></div>
+        </article>
+
+        <article class="col-9 text-center fs-5 mb-3">
+            <div id="selecionarOpcao" class="p-1 fs-5" style="border-radius: 15px; width: 60%; margin: auto; box-shadow: 3px 3px 10px grey; background-color: #FFC3C3">"Para avançar, primeiro tens de selecionar uma opção"</div>
+        </article>
+
+        <article class="col-9 text-center fs-5 mb-3">
+            <div id="jaSelecionaste" class="p-1 fs-5" style="border-radius: 15px; width: 60%; margin: auto; box-shadow: 3px 3px 10px grey; background-color: #FFC3C3">Já escolheste uma opção, por favor clica no botão em baixo</div>
+        </article>
+
+
+        <article class="col-9 text-center fs-5 mt-3">
+        <div id="contaPerguntas">1/3</div>
+        </article>
+
+
+        <article id="btnQ1" class="col-9 mt-3 seguinte">
+            <button id="sequinte1" style="border-radius: 25px; width: 120px; height: 40px"> <a  style="text-decoration: none; color: black"> Seguinte </a> </button>
+        </article>
+
+        <article id="btnQ2" class="col-9 text-center mt-3">
+            <button id="sequinte2" style="border-radius: 25px; width: 120px; height: 40px"> <a style="text-decoration: none; color: black"> Seguinte </a> </button>
+        </article>
+
+
+
+        <article id="btnContinuar" class="col-9 mt-5 text-center">
+            <button id="botaoContinuar" style="border-radius: 25px; width: 160px; height: 50px; background-color: #74d1ea"> <a  style="text-decoration: none; color: white;"> Continuar </a> </button>
+        </article>
+
+    </section>
+
+
+    <section  class="row justify-content-center">
+        <article class="col-9" style="padding-top: 100px">
+            <h3 id="txtRoupa" class="text-black p-5"> Clica nas diversas peças de roupa para saber as suas devidas informações.</h3>
+        </article>
+    </section>
+
+
+    <section id="boneco" class="row justify-content-center" style="margin-top: 50px">
+        <article class="col-9 m-auto">
+            <div >
+                <img id="roupa" src="imagens/boneco/roupa.png" >
+            </div>
+            <div>
+                <img id="oculos" src="imagens/boneco/oculos.png" >
+            </div>
+            <div>
+                <img id="cabeça" src="imagens/boneco/cabeca.png" >
+            </div>
+            <div>
+                <img id="sapatilhas" src="imagens/boneco/sapatilhas.png" >
+            </div>
+        </article>
+
+        <section class="row justify-content-start">
+            <article class="col-4">
+                <div id="textoOculos" style="margin-top: 30px"></div>
+                <div id="textoSapatilhas" style="margin-top: 500px"> </div>
+
+            </article>
+        </section>
+        <section class="row justify-content-end">
+            <article class="col-4">
+                <div id="textoRoupa" style="margin-top: 200px"> </div>
+            </article>
+        </section>
+
+    </section>
+
+
+    <section class="row justify-content-center"  >
+        <article id="Jogar" class="col-9 mt-5 text-center" style="position: absolute; top:3000px;">
+            <button id="" style="border-radius: 25px; width: 160px; height: 50px; background-color: #74d1ea"> <a  style="text-decoration: none; color: white;"> Jogar </a> </button>
+        </article>
+
+        <article id="articleJogo" class="col-9 mt-5 text-center" style="position: absolute; top:3100px; ">
+
+            <div id="jogo" >
+                <article class="col-5">
+                    <div id="ecopontos" >
+                        <img  src="imagens/ecoazul.png" id="ecoAzul" class="ecopontos">
+                        <img  src="imagens/ecoamarelo.png" id="ecoAmarelo" class="ecopontos">
+                        <img  src="imagens/ecoverde.png" id="ecoVerde" class="ecopontos">
+                        <img  src="imagens/organico.png" id="ecoOrganico" class="ecopontos">
+                    </div>
+                </article>
+
+                <article id="caixaResposta" class="text-center" style="position: relative; top: 200px;border-radius: 15px; box-shadow: 3px 3px 10px grey; ; z-index: 5" >
+                    <div id="resposta" class=" p-2 fs-3" style="position: relative;"></div>
+                    <div id="maisinfo" class=" p-2" style="position: relative;" ></div>
+                </article>
+
+                <section class="row justify-content-center col-12 text-center mt-3">
+                    <article id="regras" class="mt-5 p-5 col-6 text-center" style="background-color: #AFEADC; opacity: 80% ; border-radius: 15px;  box-shadow: 2px 2px 7px grey;">
+
+                    </article>
+                </section>
+
+                <div id="lixo" class="modal_content m-auto">
+                    <img id="banana" class="banana ms-2" src="imagens/bananapeel.png" >
+                    <img id="bottle" class="bottle" src="imagens/bottle.png">
+                    <img id="bag" class="bag" src="imagens/bag.png">
+                    <img id="lata" class="lata" src="imagens/lata.png">
+                </div>
+
+                <article id="btnComecar" class=" text-center" style="position: relative; top: 150px;border-radius: 15px; z-index: 6">
+                    <button id="botaoComecar" style="border-radius: 25px; width: 200px; height: 60px; background-color: #8DE971"> <a  style="text-decoration: none; color: white;" class="fs-3"> Começar </a> </button>
+                </article>
+
+                <article id="btnFimJogo" class=" mt-5 text-center" style="position: relative; top: 200px;border-radius: 15px; z-index: 6">
+                    <button id="botaoFim" style="border-radius: 25px; width: 200px; height: 60px; background-color: #8DE971"> <a  style="text-decoration: none; color: white;" class="fs-3"> Continuar </a> </button>
+                </article>
+            </div>
+        </article>
+
+    </section>
+
+    <section class="row  justify-content-center" id="fim" style="position: relative; top: 1800px; margin-top: 100px">
+
+        <article id="articleFinal" class="col-9 mb-3">
+            <h2 class="text-black p-5">Chegamos ao fim</h2>
+            <h4 class="text-black"> Estás pronto para saber o teu resultado???</h4>
+        </article>
+
+        <article class="col-9 mb-4 text-center">
+            <p class="text-black p-5"> <a id="verPontos">Ver resultado</a></p>
+        </article>
+
+
+        <section id="pontuacao" class="row justify-content-center col-4">
+            <article id="fimPagina" class="col-12 m-3 text-center p-4" style="background-color: #C2FFC8; border-radius: 15px; box-shadow: 3px 3px 10px grey">
+                <div id="resultado" class="fs-2"></div>
+                <div id="mensagemResultado" class="mt-2"></div>
+            </article>
+
+
+        </section>
+
+    </section>
+
+
+
+
+</main>
+
+
+
+<script src="js/aula.js"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>

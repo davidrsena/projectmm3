@@ -1,0 +1,283 @@
+
+aside {
+    background-color: #d5ebee;
+    float: right;
+    width: 150px;
+    height: 600vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    top: 0;
+    z-index: 20;
+}
+
+
+
+#aviao{
+    width: 100vh;
+    height: 20%;
+    background: url("../imagens/bg_aviao.png");
+    position: absolute;
+    border-top: 0;
+    z-index: 2;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+}
+
+#fundo{
+    width: 100vh;
+    height: 100vh;
+    background: url("../imagens/bg_p_lab.png");
+    background-size: cover;
+    background-position-y: bottom;
+    position: absolute;
+    border-bottom: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+
+#right {
+    width: 35%;
+}
+
+#wrong {
+    width: 35%;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+#mario {
+    width: 5vh;
+    position: fixed;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+section article h2{
+    text-align: center;
+}
+
+section article h4{
+    text-align: center;
+}
+
+section article h3{
+    text-align: center;
+
+}
+
+
+
+
+#opcao1, #opcao2, #opcao3, #opcao4, #opcao5, #opcao6, #opcao7, #opcao8, #opcao9{
+    height: 50px;
+    font-size: 20px;
+}
+
+#opcao1:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao2:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao3:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao4:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao5:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao6:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao7:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao8:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+#opcao9:hover{
+    background-color: lightgreen;
+    color: white;
+    box-shadow: 3px 3px 10px grey;
+}
+
+.seguinte{
+    text-align: center;
+}
+
+#roupa {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    margin-left: 303px;
+    margin-top: 90px;
+}
+
+#oculos {
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    margin-left: 400px;
+    margin-top: 45px;
+}
+
+#cabeça {
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    margin-left: 375px;
+}
+
+
+#sapatilhas {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    margin-left: 300px;
+    margin-top: 660px;
+}
+
+
+#roupa:hover{
+    transform: scale(1.05);
+}
+
+#oculos:hover{
+    transform: scale(1.2);
+}
+
+#sapatilhas:hover{
+    transform: scale(1.2);
+}
+
+#textoOculos, #textoSapatilhas{
+    border-radius: 15px;
+    background-color: #afeadc;
+    padding: 5px;
+}
+
+#textoRoupa{
+    border-radius: 15px;
+    background-color: #a9ee8a;
+    padding: 5px;
+}
+
+.ecopontos {
+    z-index: 2;
+}
+
+.imgkitchen {
+    z-index: 1;
+    width: 900px;
+    height: auto;
+    position: relative;
+}
+
+.modal_content{
+    width: 900px;
+    height: auto;
+}
+
+.banana {
+    position: absolute;
+    z-index: 2;
+    max-height: 80px;
+    max-width: 80px;
+    top: 5px;
+    left: 450px;
+}
+
+.bottle {
+    position: absolute;
+    z-index: 2;
+    max-height: 80px;
+    max-width: 80px;
+    top: 100px;
+    left: 90px;
+
+}
+
+.bag {
+    position: absolute;
+    z-index: 2;
+    max-height: 100px;
+    max-width: 80px;
+    top: 190px;
+    left: 430px;
+}
+
+.lata {
+    position: absolute;
+    z-index: 2;
+    max-height: 60px;
+    max-width: 80px;
+    top: 225px;
+    left: 140px;
+    rotate: 10deg;
+}
+
+#articleJogo {
+    width: 1000px;
+    height: 600px;
+    position:absolute;
+    background-image: url("../imagens/kitchen.png");
+    box-shadow: 3px 3px 10px grey;
+    background-size: cover;
+}
+
+#ecopontos {
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    max-height: 362px;
+}
+
+#banana:hover, #bottle:hover, #bag:hover, #lata:hover, #ecoAmarelo:hover, #ecoAzul:hover, #ecoVerde:hover, #ecoOrganico:hover {
+   transform: scale(1.2) ;
+}
+
+#ecoAmarelo:hover, #ecoAzul:hover, #ecoVerde:hover, #ecoOrganico:hover {
+    transform: scale(1.2) ;
+}
+
+#rightFim {
+    width: 35%;
+}
+
+#wrongFim {
+    width: 35%;
+}

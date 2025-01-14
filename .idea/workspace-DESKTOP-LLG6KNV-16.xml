@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72f0547a-df42-48fc-809e-3f01d5b6f371" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JoXOh0bqr3wkJuas7ScygZdH6Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DiogoGuerra\OneDrive - Universidade de Aveiro\Projeto LAB3\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72f0547a-df42-48fc-809e-3f01d5b6f371" name="Changes" comment="" />
+      <created>1672745381994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672745381994</updated>
+      <workItem from="1672745384067" duration="3379000" />
+      <workItem from="1672861554098" duration="1238000" />
+      <workItem from="1673446555492" duration="3163000" />
+      <workItem from="1673456490235" duration="30000" />
+      <workItem from="1673456597862" duration="34000" />
+      <workItem from="1673458095231" duration="604000" />
+      <workItem from="1673518321745" duration="2523000" />
+      <workItem from="1673536519316" duration="6790000" />
+      <workItem from="1673547529931" duration="1700000" />
+      <workItem from="1673549248318" duration="833000" />
+      <workItem from="1673608399335" duration="1335000" />
+      <workItem from="1673626995662" duration="4860000" />
+      <workItem from="1673733180178" duration="43000" />
+      <workItem from="1673790967158" duration="523000" />
+      <workItem from="1673791505824" duration="131000" />
+      <workItem from="1673791775641" duration="2204000" />
+      <workItem from="1673865719422" duration="8728000" />
+      <workItem from="1673878077367" duration="130000" />
+      <workItem from="1673878919337" duration="1480000" />
+      <workItem from="1673880424187" duration="3835000" />
+      <workItem from="1673885847365" duration="671000" />
+      <workItem from="1673886533757" duration="86000" />
+      <workItem from="1673886633037" duration="10534000" />
+      <workItem from="1673898329190" duration="145000" />
+      <workItem from="1673904947603" duration="3873000" />
+      <workItem from="1673911618077" duration="4000" />
+      <workItem from="1673911644676" duration="50000" />
+      <workItem from="1673911703165" duration="97000" />
+      <workItem from="1673911814327" duration="58000" />
+      <workItem from="1673911881912" duration="50000" />
+      <workItem from="1673912082811" duration="842000" />
+      <workItem from="1673912946401" duration="25000" />
+      <workItem from="1673950622358" duration="6915000" />
+      <workItem from="1673959378619" duration="1272000" />
+      <workItem from="1673963655054" duration="1246000" />
+      <workItem from="1673965299566" duration="157000" />
+      <workItem from="1673967008278" duration="73000" />
+      <workItem from="1673973514727" duration="19000" />
+      <workItem from="1673974420587" duration="598000" />
+      <workItem from="1673977375575" duration="116000" />
+      <workItem from="1673979562437" duration="4835000" />
+      <workItem from="1673984553250" duration="2061000" />
+      <workItem from="1673994007878" duration="5029000" />
+      <workItem from="1674034398354" duration="6173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/aula.js</url>
+          <line>157</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/aula.js</url>
+          <line>185</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
